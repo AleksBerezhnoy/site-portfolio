@@ -5,11 +5,19 @@ body {
     font-family: "IBM Plex Mono", monospace;
     letter-spacing: -1px;
 }
+
 .container {
     margin: 0 auto;
     width: 1400px;
     background-color: #000000;
+@media screen {
+    .container {
+        max-width: 2000px;
+        background-position: 90%;
+        overflow-x: hidden;
+    }
     
+}
 }
 .header {
     position: relative;
